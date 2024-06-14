@@ -36,7 +36,7 @@ layers:
   - P
   - '#'
   - {t: Esc, h: '$$mdi:monitor-dashboard$$'}
-  - A
+  - {t: A, h: Ctrl}
   - S
   - D
   - F
@@ -55,7 +55,7 @@ layers:
   - B
   - $$mdi:apple-keyboard-shift$$
   - {t: $$num-nav$$, h: Num/Nav, type: info}
-  - {t: '$$mdi:monitor-dashboard$$', h: Meta, type: info}
+  - Alt
   - Alt
   - {t: $$num-nav$$, h: Num/Nav, type: info}
   - $$mdi:apple-keyboard-shift$$
@@ -64,22 +64,22 @@ layers:
   - ','
   - .
   - /
-  - ¬
+  - _
   - {t: $$moergo$$, h: Magic, type: info}
   - {t: '&rgb_ug_status_macro', h: gaming}
-  - ''
-  - ''
-  - ''
+  - $$mdi:apple-keyboard-caps$$
+  - '{'
+  - '}'
   - $$mdi:backspace$$
   - {t: Esc, h: symbols}
   - {t: 'Sft+ $$mdi:keyboard-tab$$', h: Ctrl}
   - {t: '$$mdi:keyboard-tab$$', h: Ctrl}
-  - {t: '$$mdi:keyboard-return$$', h: symbols}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:monitor-dashboard$$'}
+  - {t: '$$mdi:keyboard-return$$', h: Ctrl}
   - '['
   - ']'
-  - Sft+ {
-  - Sft+ }
+  - {t: $$moergo$$, h: Magic, type: info}
+  - {t: '$$mdi:symbol$$', h: Symbols, type: info}
   - {t: '$$mdi:keyboard-outline$$', h: Qwerty, type: info}
   qwerty:
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -236,12 +236,12 @@ layers:
   - {type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {type: held alternate}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:symbol$$', h: Symbols, type: info}
   - {t: '$$mdi:chevron-down$$', type: trans}
   navigation:
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -267,23 +267,23 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - +
-  - {t: '7', s: F7}
-  - {t: '8', s: F8}
-  - {t: '9', s: F9}
-  - {t: '*', s: F11}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - Pg Up
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - $$mdi:arrow-up-bold$$
+  - '~'
   - {t: '$$mdi:chevron-down$$', type: trans}
   - Pg Down
   - {t: '$$mdi:chevron-down$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
+  - '&mkp LCLK'
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '0', s: F10}
-  - {t: '4', s: F4}
-  - {t: '5', s: F5}
-  - {t: '6', s: F6}
-  - {t: '=', s: F12}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&mkp RCLK'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -291,16 +291,16 @@ layers:
   - {t: End, type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '-'
-  - {t: '1', s: F1}
-  - {t: '2', s: F2}
-  - {t: '3', s: F3}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - /
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: $$num-nav$$, h: Num/Nav, type: info}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: $$num-nav$$, h: Num/Nav, type: info}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-low$$
@@ -309,12 +309,12 @@ layers:
   - Print
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: AGr+ 4, s: AGr+ $}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - $
   - £
   - .
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - Esc
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
