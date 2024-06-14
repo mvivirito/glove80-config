@@ -47,7 +47,7 @@ layers:
   - L
   - {t: ;, h: navigation}
   - ''''
-  - '`'
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -64,9 +64,9 @@ layers:
   - ','
   - .
   - /
-  - _
+  - $$mdi:apple-keyboard-shift$$
+  - '-'
   - {t: '&rgb_ug_status_macro', h: magic}
-  - {t: '&rgb_ug_status_macro', h: gaming}
   - $$mdi:apple-keyboard-caps$$
   - '{'
   - '}'
@@ -79,8 +79,8 @@ layers:
   - '['
   - ']'
   - {t: '&rgb_ug_status_macro', h: magic}
-  - {t: '$$mdi:keyboard-outline$$', h: Qwerty, type: info}
   - symbols
+  - '='
   symbols:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -160,8 +160,8 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:keyboard-outline$$', h: Qwerty, type: info}
-  - {type: held}
+  - {t: '$$mdi:keyboard-outline$$', h: Qwerty, type: held}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   navigation:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -309,7 +309,7 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: $$num-nav$$, h: Num/Nav, type: info}
-  - {t: Alt, type: held}
+  - Alt
   - ''
   - ''
   - ''
@@ -389,8 +389,8 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   - ''

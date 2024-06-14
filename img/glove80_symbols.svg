@@ -609,13 +609,14 @@ text.hold {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
-<g transform="translate(924, 336)" class="key info keypos-78">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key info"/>
-<use href="#mdi:keyboard-outline" xlink:href="#mdi:keyboard-outline" x="-7" y="-7" height="14" width="14.0" class="key info tap glyph mdi:keyboard-outline"/>
-<text x="0" y="24" class="key info hold"><tspan style="font-size: 83%">Qwerty</tspan></text>
-</g>
-<g transform="translate(980, 336)" class="key held keypos-79">
+<g transform="translate(924, 336)" class="key held keypos-78">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<use href="#mdi:keyboard-outline" xlink:href="#mdi:keyboard-outline" x="-7" y="-7" height="14" width="14.0" class="key held tap glyph mdi:keyboard-outline"/>
+<text x="0" y="24" class="key held hold"><tspan style="font-size: 83%">Qwerty</tspan></text>
+</g>
+<g transform="translate(980, 336)" class="key trans keypos-79">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
 </g>
 </g>
