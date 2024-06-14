@@ -11,7 +11,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - '='
   - {t: '1', s: '!'}
   - {t: '2', s: '"'}
   - {t: '3', s: £}
@@ -22,51 +22,51 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - F12
-  - ''
+  - '-'
+  - $$mdi:keyboard-tab$$
   - Q
   - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
-  - Y
-  - {t: '''', s: '"'}
-  - ''
-  - {t: _, s: \}
-  - A
-  - R
-  - S
-  - T
-  - G
-  - M
-  - N
   - E
+  - R
+  - T
+  - Y
+  - U
   - I
   - O
-  - {t: '-', s: /}
-  - ''
+  - P
+  - '#'
+  - {t: Esc, h: '$$mdi:monitor-dashboard$$'}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, h: navigation}
+  - ''''
+  - '`'
   - Z
   - X
   - C
-  - D
   - V
+  - B
   - $$mdi:apple-keyboard-shift$$
   - {t: $$num-nav$$, h: Num/Nav, type: info}
   - {t: '$$mdi:monitor-dashboard$$', h: Meta, type: info}
   - Alt
   - {t: $$num-nav$$, h: Num/Nav, type: info}
   - $$mdi:apple-keyboard-shift$$
-  - K
-  - H
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
-  - {t: '?', s: '!'}
-  - ''
-  - {t: '$$mdi:controller$$', h: Gaming, type: info}
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ¬
   - {t: $$moergo$$, h: Magic, type: info}
+  - {t: '&rgb_ug_status_macro', h: gaming}
   - ''
   - ''
   - ''
@@ -76,10 +76,10 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: Ctrl}
   - {t: '$$mdi:keyboard-return$$', h: symbols}
   - $$mdi:keyboard-space$$
-  - ''
-  - ''
-  - ''
-  - AltGr
+  - '['
+  - ']'
+  - Sft+ {
+  - Sft+ }
   - {t: '$$mdi:keyboard-outline$$', h: Qwerty, type: info}
   qwerty:
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -273,9 +273,9 @@ layers:
   - {t: '9', s: F9}
   - {t: '*', s: F11}
   - Pg Up
-  - Ctl+ $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:arrow-up-bold$$
-  - Ctl+ $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - Pg Down
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -284,11 +284,11 @@ layers:
   - {t: '5', s: F5}
   - {t: '6', s: F6}
   - {t: '=', s: F12}
-  - Home
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - End
+  - {t: End, type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - '-'
@@ -317,7 +317,7 @@ layers:
   - Esc
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - $$mdi:keyboard-return$$
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
@@ -390,7 +390,7 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:controller$$', h: Gaming, type: info}
-  - Alt
+  - {t: Alt, type: held}
   - ''
   - ''
   - ''
