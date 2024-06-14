@@ -70,8 +70,8 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - '{'
   - '}'
+  - $$mdi:keyboard-space$$
   - $$mdi:backspace$$
-  - {t: Esc, h: symbols}
   - {t: 'Sft+ $$mdi:keyboard-tab$$', h: Ctrl}
   - {t: '$$mdi:keyboard-tab$$', h: Ctrl}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:monitor-dashboard$$'}
@@ -233,7 +233,7 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
