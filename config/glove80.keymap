@@ -270,12 +270,12 @@
 
         default_layer {
             bindings = <
-&kp F1                &kp F2              &kp F3      &kp F4          &kp F5                                                                                                                                                     &kp F6            &kp F7     &kp F8      &kp F9      &kp F10
-&kp EQUAL             &kp N1              &kp N2      &kp N3          &kp N4           &kp N5                                                                                                                            &kp N6  &kp N7            &kp N8     &kp N9      &kp N0      &kp MINUS
-&kp TAB               &kp Q               &kp W       &kp E           &kp R            &kp T                                                                                                                             &kp Y   &kp U             &kp I      &kp O       &kp P       &kp BSLH
-&mt LEFT_META ESCAPE  &mt LEFT_CONTROL A  &kp S       &kp D           &kp F            &kp G                                                                                                                             &kp H   &kp J             &kp K      &kp L       &lt 3 SEMI  &kp SQT
-&kp GRAVE             &kp Z               &kp X       &kp C           &kp V            &kp B   &smart_lshift  &nav           &kp LEFT_ALT              &kp LEFT_ALT           &nav               &smart_rshift           &kp N   &kp M             &kp COMMA  &kp DOT     &kp FSLH    &kp UNDER
-&magic 5 0            &magic 4 0          &caps_word  &kp LEFT_BRACE  &kp RIGHT_BRACE          &kp SPACE      &kp BACKSPACE  &mt LEFT_CONTROL LS(TAB)  &mt RIGHT_CONTROL TAB  &mt LEFT_META TAB  &mt LEFT_CONTROL ENTER          &kp LEFT_BRACKET  &kp RBKT   &magic 5 0  &tog 2      &tog 1
+&kp F1                &kp F2      &kp F3      &kp F4          &kp F5                                                                                                                                                     &kp F6            &kp F7     &kp F8      &kp F9      &kp F10
+&kp EQUAL             &kp N1      &kp N2      &kp N3          &kp N4           &kp N5                                                                                                                            &kp N6  &kp N7            &kp N8     &kp N9      &kp N0      &kp MINUS
+&kp TAB               &kp Q       &kp W       &kp E           &kp R            &kp T                                                                                                                             &kp Y   &kp U             &kp I      &kp O       &kp P       &kp BSLH
+&mt LEFT_META ESCAPE  &kp A       &kp S       &kp D           &kp F            &kp G                                                                                                                             &kp H   &kp J             &kp K      &kp L       &lt 3 SEMI  &kp SQT
+&kp GRAVE             &kp Z       &kp X       &kp C           &kp V            &kp B   &smart_lshift  &nav           &kp LEFT_ALT              &kp LEFT_ALT           &nav               &smart_rshift           &kp N   &kp M             &kp COMMA  &kp DOT     &kp FSLH    &kp UNDER
+&magic 5 0            &magic 4 0  &caps_word  &kp LEFT_BRACE  &kp RIGHT_BRACE          &kp SPACE      &kp BACKSPACE  &mt LEFT_CONTROL LS(TAB)  &mt RIGHT_CONTROL TAB  &mt LEFT_META TAB  &mt LEFT_CONTROL ENTER          &kp LEFT_BRACKET  &kp RBKT   &magic 5 0  &tog 2      &tog 1
             >;
         };
 
