@@ -269,12 +269,12 @@
 
         default_layer {
             bindings = <
-&kp F1         &kp F2      &kp F3  &kp F4  &kp F5                                                                                                                             &kp F6  &kp F7       &kp F8      &kp F9          &kp F10
-&kp F11        &kp N1      &kp N2  &kp N3  &kp N4  &kp N5                                                                                                             &kp N6  &kp N7  &kp N8       &kp N9      &kp N0          &kp F12
-&none          &kp Q       &kp W   &kp F   &kp P   &kp B                                                                                                              &kp J   &kp L   &kp U        &kp Y       &quotes         &none
-&under_backsl  &kp A       &kp R   &kp S   &kp T   &kp G                                                                                                              &kp M   &kp N   &kp E        &kp I       &kp O           &dash_slash
-&none          &kp Z       &kp X   &kp C   &kp D   &kp V   &smart_lshift  &nav          &kp LEFT_META             &kp LEFT_ALT           &nav          &smart_rshift  &kp K   &kp H   &comma_semi  &dot_colon  &question_excl  &none
-&tog 4         &magic 5 0  &none   &none   &none           &kp BSPC       &lt 2 ESCAPE  &mt LEFT_CONTROL LS(TAB)  &mt RIGHT_CONTROL TAB  &lt 2 RETURN  &kp SPACE              &none   &none        &none       &kp RALT        &tog 1
+&kp F1                &kp F2      &kp F3  &kp F4  &kp F5                                                                                                                             &kp F6            &kp F7     &kp F8        &kp F9        &kp F10
+&kp EQUAL             &kp N1      &kp N2  &kp N3  &kp N4  &kp N5                                                                                                             &kp N6  &kp N7            &kp N8     &kp N9        &kp N0        &kp MINUS
+&kp TAB               &kp Q       &kp W   &kp E   &kp R   &kp T                                                                                                              &kp Y   &kp U             &kp I      &kp O         &kp P         &kp BSLH
+&mt LEFT_META ESCAPE  &kp A       &kp S   &kp D   &kp F   &kp G                                                                                                              &kp H   &kp J             &kp K      &kp L         &lt 3 SEMI    &kp SQT
+&kp GRAVE             &kp Z       &kp X   &kp C   &kp V   &kp B   &smart_lshift  &nav          &kp LEFT_META             &kp LEFT_ALT           &nav          &smart_rshift  &kp N   &kp M             &kp COMMA  &kp DOT       &kp FSLH      &kp TILDE
+&magic 5 0            &magic 4 0  &none   &none   &none           &kp BSPC       &lt 2 ESCAPE  &mt LEFT_CONTROL LS(TAB)  &mt RIGHT_CONTROL TAB  &lt 2 RETURN  &kp SPACE              &kp LEFT_BRACKET  &kp RBKT   &kp LS(LBRC)  &kp LS(RBRC)  &tog 1
             >;
         };
 
@@ -302,12 +302,12 @@
 
         navigation_layer {
             bindings = <
-&trans  &trans        &trans      &trans     &trans                                                                                        &trans             &trans            &trans           &trans           &trans
-&trans  &trans        &trans      &trans     &trans      &trans                                                                &trans      &trans             &trans            &trans           &trans           &trans
-&trans  &kp KP_PLUS   &sev_f7     &eight_f8  &nine_f9    &mult_f11                                                             &kp PG_UP   &kp LC(LEFT)       &kp UP_ARROW      &kp LC(RIGHT)    &kp PG_DN        &trans
-&trans  &zero_f10     &four_f4    &five_f5   &six_f6     &eq_f12                                                               &kp HOME    &kp LEFT_ARROW     &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp END          &trans
-&trans  &kp KP_MINUS  &one_f1     &two_f2    &three_f3   &kp KP_SLASH  &trans  &tog 3      &trans  &trans  &tog 3      &trans  &kp DELETE  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &kp PRINTSCREEN  &trans
-&trans  &kp RA(N4)    &kp DOLLAR  &kp POUND  &kp KP_DOT                &trans  &kp ESCAPE  &trans  &trans  &kp RETURN  &trans              &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT       &trans           &trans
+&trans  &trans        &trans      &trans     &trans                                                                                    &trans             &trans            &trans           &trans           &trans
+&trans  &trans        &trans      &trans     &trans      &trans                                                            &trans      &trans             &trans            &trans           &trans           &trans
+&trans  &kp KP_PLUS   &sev_f7     &eight_f8  &nine_f9    &mult_f11                                                         &kp PG_UP   &trans             &kp UP_ARROW      &trans           &kp PG_DN        &trans
+&trans  &zero_f10     &four_f4    &five_f5   &six_f6     &eq_f12                                                           &kp LEFT    &kp DOWN           &kp UP            &kp RIGHT_ARROW  &kp END          &trans
+&trans  &kp KP_MINUS  &one_f1     &two_f2    &three_f3   &kp KP_SLASH  &trans  &tog 3      &trans  &trans  &tog 3  &trans  &kp DELETE  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &kp PRINTSCREEN  &trans
+&trans  &kp RA(N4)    &kp DOLLAR  &kp POUND  &kp KP_DOT                &trans  &kp ESCAPE  &trans  &trans  &trans  &trans              &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT       &trans           &trans
             >;
         };
 
