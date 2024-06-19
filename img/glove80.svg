@@ -1094,9 +1094,9 @@ text.hold {
 <tspan x="0" dy="-0.6em">Pg</tspan><tspan x="0" dy="1.2em">Up</tspan>
 </text>
 </g>
-<g transform="translate(756, 140)" class="key trans keypos-29">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph mdi:chevron-down"/>
+<g transform="translate(756, 140)" class="key keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">¬</text>
 </g>
 <g transform="translate(812, 140)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1106,11 +1106,9 @@ text.hold {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
-<g transform="translate(924, 168)" class="key keypos-32">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Pg</tspan><tspan x="0" dy="1.2em">Down</tspan>
-</text>
+<g transform="translate(924, 168)" class="key trans keypos-32">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
 <g transform="translate(980, 168)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1162,7 +1160,6 @@ text.hold {
 </g>
 <g transform="translate(924, 224)" class="key held keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<text x="0" y="0" class="key held tap">End</text>
 </g>
 <g transform="translate(980, 224)" class="key trans keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1218,7 +1215,7 @@ text.hold {
 </g>
 <g transform="translate(700, 252)" class="key keypos-58">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:backspace-reverse-outline"/>
+<text x="0" y="0" class="key tap">#</text>
 </g>
 <g transform="translate(756, 252)" class="key keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1232,9 +1229,9 @@ text.hold {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:volume-high"/>
 </g>
-<g transform="translate(924, 280)" class="key keypos-62">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Print</text>
+<g transform="translate(924, 280)" class="key trans keypos-62">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
 <g transform="translate(980, 280)" class="key trans keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1254,11 +1251,11 @@ text.hold {
 </g>
 <g transform="translate(196, 308)" class="key keypos-67">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">£</text>
+<text x="0" y="0" class="key tap">(</text>
 </g>
 <g transform="translate(252, 308)" class="key keypos-68">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">.</text>
+<text x="0" y="0" class="key tap">)</text>
 </g>
 <g transform="translate(314, 347) rotate(20.0)" class="key trans keypos-69">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

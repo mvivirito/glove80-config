@@ -192,10 +192,10 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - Pg Up
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ¬
   - '~'
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - Pg Down
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - '&mkp LCLK'
@@ -207,7 +207,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: End, type: held}
+  - {type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -221,17 +221,17 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
+  - '#'
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
   - $$mdi:volume-high$$
-  - Print
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - _
   - {t: '$$mdi:chevron-down$$', type: trans}
   - $
-  - £
-  - .
+  - (
+  - )
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
