@@ -292,12 +292,12 @@
 
         navigation_layer {
             bindings = <
-&trans     &trans     &trans      &trans          &trans                                                                                     &trans             &trans           &trans           &trans  &trans
-&trans     &trans     &trans      &trans          &trans           &trans                                                         &trans     &trans             &trans           &trans           &trans  &trans
-&trans     &trans     &trans      &trans          &trans           &trans                                                         &kp PG_UP  &kp TILDE          &kp PIPE         &trans           &trans  &trans
-&kp DEL    &mkp LCLK  &trans      &trans          &trans           &mkp RCLK                                                      &kp LEFT   &kp DOWN           &kp UP           &kp RIGHT_ARROW  &trans  &trans
-&trans     &trans     &trans      &trans          &trans           &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &kp SLASH  &kp C_VOLUME_DOWN  &kp C_MUTE       &kp C_VOLUME_UP  &trans  &trans
-&kp UNDER  &trans     &kp DOLLAR  &kp LEFT_BRACE  &kp RIGHT_BRACE                 &trans  &trans  &trans  &trans  &trans  &trans             &kp LEFT_BRACE     &kp RIGHT_BRACE  &kp C_NEXT       &trans  &trans
+&trans     &trans     &trans      &trans          &trans                                                                                 &trans             &trans           &trans           &trans  &trans
+&trans     &trans     &trans      &trans          &trans           &trans                                                     &trans     &trans             &trans           &trans           &trans  &trans
+&trans     &trans     &trans      &trans          &trans           &trans                                                     &kp PG_UP  &kp TILDE          &kp PIPE         &trans           &trans  &trans
+&kp DEL    &mkp LCLK  &trans      &trans          &trans           &mkp RCLK                                                  &kp LEFT   &kp DOWN           &kp UP           &kp RIGHT_ARROW  &trans  &trans
+&trans     &trans     &trans      &trans          &trans           &kp UNDER  &trans  &trans  &trans  &trans  &trans  &trans  &kp GRAVE  &kp C_VOLUME_DOWN  &kp C_MUTE       &kp C_VOLUME_UP  &trans  &trans
+&kp UNDER  &trans     &kp DOLLAR  &kp LEFT_BRACE  &kp RIGHT_BRACE             &trans  &trans  &trans  &trans  &trans  &trans             &kp LEFT_BRACE     &kp RIGHT_BRACE  &kp C_NEXT       &trans  &trans
             >;
         };
 
